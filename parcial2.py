@@ -57,7 +57,20 @@ def promedio(arreglo_de_reales):
 #romedio(arreglo_reales)
 
 #mediana
+def mediana(lista):
+    lista_ordenada = sorted(lista)
+    n = len(lista_ordenada)
+    if n % 2 == 1:  # Si el número de elementos es impar
+        mediana = lista_ordenada[n // 2]
+    else:  # Si el número de elementos es par
+        mediana = (lista_ordenada[n // 2 - 1] + lista_ordenada[n // 2]) / 2
+    print("la lista ordenada es: ", lista_ordenada)
+    # Imprimir la mediana
+    print("La mediana es:", mediana)
 
+
+lista_de_enteros = [2, 4, 6, 45, 76, 3, 1]
+#mediana(lista_de_enteros)
     
             
             
