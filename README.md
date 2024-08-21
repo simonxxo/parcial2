@@ -36,3 +36,8 @@ PUNTO 5
 OUTPUT
 
 ![image](https://github.com/user-attachments/assets/9e973eb3-2a96-4faa-a610-d15d15178b8e)
+
+
+ACTUALIZACION DEL PUNTO 5 PARA CORREGIR LA MEDIANA EN UN ARREGLO CON UNA CANTIDAD PAR DE ELENMENTOS
+
+![image](https://github.com/user-attachments/assets/8e98416e-7f5a-422e-a38c-69fdbc32b6dd)
