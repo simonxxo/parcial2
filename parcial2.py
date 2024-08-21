@@ -71,6 +71,26 @@ def mediana(lista):
 
 lista_de_enteros = [2, 4, 6, 45, 76, 3, 1]
 #mediana(lista_de_enteros)
+
+
+
+#acualizacion correcion del parcial
+def mediana2(lista):
+    lista_ordenada = sorted(lista)
+    n = len(lista_ordenada)
+    if n % 2 == 1:  # Si el número de elementos es impar
+        mediana = lista_ordenada[n // 2]
+        print(lista_ordenada)
+        print("la mediana es ", mediana)
+    else:  # Si el número de elementos es par
+        mediana = [lista_ordenada[n // 2 - 1],  lista_ordenada[n // 2]]
+        print("la lista ordenada es: ", lista_ordenada)
+        # Imprimir la mediana
+        print("La mediana es:",lista_ordenada[n // 2 - 1],  lista_ordenada[n // 2])
+
+
+lista_de_enteros = [2, 4, 8, 6, 45, 76, 3, 1]
+mediana2(lista_de_enteros)
     
             
             
